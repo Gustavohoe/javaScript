@@ -18,11 +18,12 @@ async function buscarPokemon() {
     
       
         document.getElementById('mensagem').innerHTML = `
+            <div class="local">
              <h3>${pokemon}</h3>
-             <p>Nome: <strong>${data.name} </strong></p>
-             <p>Tipo: <strong>${data.types[0].type.name} </strong></p>
+             <p><strong>Nome: ${data.name} </strong></p>
+             <p><strong>Tipo: ${data.types[0].type.name} </strong></p>
              <p>Sprite:</p> <img src ="${data.sprites.front_default}">
-            
+            </div>
                     `;
         
      } catch(erro){

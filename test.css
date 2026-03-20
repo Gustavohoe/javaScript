@@ -58,5 +58,7 @@ body{
      transform: scale(1.05);
     background: linear-gradient(135deg, red);
 }
-
+.local{
+    background-color: #ffffff;
+}
 /*personalizar a aba de resposta e potar gif daoras*/
