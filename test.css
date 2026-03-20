@@ -1,0 +1,62 @@
+h1{
+    text-align:center;
+    background-color: #3B4CCA;
+    text-align:center;
+    font-size:60px;
+    padding:30px;
+    border: 6px solid #000;
+    margin: 10px auto;
+    width: 500px;
+    border-radius: 20px; 
+    
+    
+}
+.perg{
+    text-align:center;
+    display: flex;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    padding: 5px 15px;
+    width: 300px; 
+    margin: 0 auto;
+    flex: 1;
+    background: #ffffff;
+   
+}
+.perginput{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding:8px;
+    font-size: 16px;
+    flex: 1;
+    border-radius: 50px;
+    
+   
+    
+}
+body{
+    background: url("imagemfundo.png") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    
+}
+.butao{
+    background-color: #FFCB05;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    background: linear-gradient(135deg, #FFCB05);
+    
+}
+
+.perg button:hover {
+     transform: scale(1.05);
+    background: linear-gradient(135deg, red);
+}
+
+/*personalizar a aba de resposta e potar gif daoras*/
